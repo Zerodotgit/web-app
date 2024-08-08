@@ -11,7 +11,20 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        name: 'WebApp',
+        authors: 'Zhiyuan Xu',
+        noMsi: true,
+        target: 'nsis',
+        setupExe: 'WebAppSetup-v1.0.0.exe',
+        description: 'web网页启动器',
+        setupIcon: path.join(__dirname, 'src/assets/icons/icon.ico'),
+        icon: path.join(__dirname, 'src/assets/icons/icon.ico'),
+        shortcuts:{
+          createDesktopShortcut: true,
+          createStartMenuShortcut: true,
+        }
+      },
     },
     {
       name: '@electron-forge/maker-zip',
