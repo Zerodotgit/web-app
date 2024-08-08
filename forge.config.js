@@ -32,11 +32,23 @@ module.exports = {
     },
     {
       name: '@electron-forge/maker-deb',
-      config: {},
+      config: {
+        maintainer: 'Zhiyuan Xu',
+        homepage: 'https://github.com/Zerodotgit/web-app',
+        icon: path.join(__dirname, 'src/assets/icons/icon.png'),
+        categories: ['Utility'],
+        priority: 'optional',
+      },
     },
     {
       name: '@electron-forge/maker-rpm',
-      config: {},
+      config: {
+        maintainer: 'Zhiyuan Xu',
+        homepage: 'https://github.com/Zerodotgit/web-app',
+        icon: path.join(__dirname, 'src/assets/icons/icon.png'),
+        categories: ['Utility'],
+        priority: 'optional',
+      },
     },
   ],
   plugins: [
