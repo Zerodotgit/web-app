@@ -5,7 +5,7 @@ document,addEventListener('DOMContentLoaded', () => {
     button.addEventListener('click', () => {
         const url = "http://" + input.value
         if(url){
-            window.resizeTo(960,720)
+            window.resizeTo(1280,960)
             window.location.href = url
         }
     })
