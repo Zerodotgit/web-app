@@ -10,6 +10,7 @@ function createWindow(){
 
         // 预加载
         webPreferences: {
+            devTools: false,
             preload: path.join(__dirname, 'pages', 'js', 'index.js'),
             nodeIntegration: true,
             contextIsolation: false
