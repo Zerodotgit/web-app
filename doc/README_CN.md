@@ -1,5 +1,7 @@
-# WebApp
+![alt logo](../src/assets/icons/icon.png)
 
+# WebApp
+国内镜像仓库：[Zerodots's Git Repo](https://git.zerodots.net/zerodots/web-app)
 ## 介绍
 
 WebApp是基于electron框架开发的web启动器，WebApp实现了网页的桌面化，例如：Home Assistant（后简称HA）的后台管理页面依赖于web，每次管理HA时总是需要打开浏览器再输入地址，但通过这个应用程序，仅需输入HA的后台管理页面的地址，即可像使用普通管理软件一样管理HA，并还能保持后台运行。
