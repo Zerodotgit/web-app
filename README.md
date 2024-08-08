@@ -24,11 +24,11 @@ If you are using a platform that is not included in the above platforms, such as
 
 Need to confirm that the software listed in the table below has been installed:
 
-| Dependencies | Minimum Version |
-| ------------ | --------------- |
-| Node.js      | v20.16.9        |
-| npm          | v10.8.1         |
-| yarn（可选） | v1.22.22        |
+| Dependencies   | Minimum Version |
+|----------------| --------------- |
+| Node.js        | v20.16.9        |
+| npm            | v10.8.1         |
+| yarn（optional） | v1.22.22        |
 
 If not installed, go to [Node.js](https://nodejs.org/zh-cn/download/package-manager) to download and install.
 
