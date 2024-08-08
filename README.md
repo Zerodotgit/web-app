@@ -53,7 +53,7 @@ Compile
 
 ```bash
 npm run make
-# 或者
+# or
 yarn make
 ```
 
